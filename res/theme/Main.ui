@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="Memo App" >
+  <component type="Label" name="Data" cloudDestinationProperty="Data" text="Label" >
+  </component>
+  <component type="TextField" name="txt" cloudBoundProperty="text" cloudDestinationProperty="txt" text="TextField" >
+  </component>
+  <component type="Button" name="save" cloudDestinationProperty="save" text="Save" >
+  </component>
+</component>
